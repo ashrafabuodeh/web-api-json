@@ -1,0 +1,61 @@
+.wrapper{
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 1470;
+}
+
+.header{
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+}
+
+.main{
+    border: 1px solid black;
+    height: 1500;
+    width: 100%;
+}
+
+.all-cards{
+    border: 1px solid black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    padding-left: 250px;   
+}
+
+.card-item{
+    background-color: cornsilk;
+    border: 1px solid black ;
+    height: 600px;
+    margin-top: 40px;
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+}
+
+.card-button{
+    background-color: rgb(78, 247, 224);
+    height: 35px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.title{
+    margin-left: 250px;
+}
+
+.card-image{
+    border: 1px solid black;
+    width: 300px;
+}
+
+.card-item-title{
+   margin-left: 10px;
+}
+
+.background-for-card{
+    background-color: rgb(70, 100, 184);
+}
